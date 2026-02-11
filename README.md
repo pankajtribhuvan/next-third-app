@@ -12,3 +12,10 @@ https://example.com/profiles/profile/kabir/ <br>
 https://example.com/profiles/profile/aarush/post/101 <br>
 https://example.com/profiles/profile/aarush/post/102 <br>
 https://example.com/profiles/profile/aarush/post/103 <br>
+
+6. DYNAMIC ROUTING IN CLIENT COMPONENT - <br>
+
+REACT use API - <br>
+// so we can use dynamic routing inside client component <br>
+Example Page : <br>
+app\Profiles\Profile\[user]\posts\[postId]\page.jsx <br>
