@@ -19,3 +19,9 @@ REACT use API - <br>
 // so we can use dynamic routing inside client component <br>
 Example Page : <br>
 app\Profiles\Profile\[user]\posts\[postId]\page.jsx <br>
+
+7. How to use URL - string - searchParams <br><br>
+http://localhost:3000/products?category=laptop&price=340000 <br>
+
+Example  : <br>
+app\products\page.jsx  <br>

@@ -42,6 +42,14 @@ function Home() {
 Dynamic Route 
       </Link>
     </li>
+    <li>
+      <Link
+        href="/products"
+        className="bg-amber-300 px-4 py-2 block"
+      >
+        Search Param - Products 
+      </Link>
+    </li>
   </ul>
 </nav>
 
