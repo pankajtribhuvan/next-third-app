@@ -25,3 +25,15 @@ http://localhost:3000/products?category=laptop&price=340000 <br>
 
 Example  : <br>
 app\products\page.jsx  <br>
+
+8. How to use URL - string - useSearchParams - in Client Components <br><br>
+http://localhost:3000/products?category=laptop&price=340000 <br>
+
+Example  : <br>
+app\products2\page.jsx  <br>
+
+------------------- <br>
+URL : http://localhost:3000/Blogs <br>
+
+
+

@@ -50,6 +50,22 @@ Dynamic Route
         Search Param - Products 
       </Link>
     </li>
+    <li>
+      <Link
+        href="/products2"
+        className="bg-amber-300 px-4 py-2 block"
+      >
+        Search Param in Client Component 
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/Blogs"
+        className="bg-amber-300 px-4 py-2 block"
+      >
+        Slug Example in Server Component
+      </Link>
+    </li>
   </ul>
 </nav>
 
