@@ -66,6 +66,14 @@ Dynamic Route
         Slug Example in Server Component
       </Link>
     </li>
+     <li>
+      <Link
+        href="/Recipes"
+        className="bg-amber-300 px-4 py-2 block"
+      >
+        Recipes - Server Component Project
+      </Link>
+    </li>
   </ul>
 </nav>
 

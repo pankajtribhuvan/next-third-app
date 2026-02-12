@@ -63,3 +63,16 @@ URL : http://localhost:3000/Blogs <br>
 
 
 <hr />
+10. Receipe - We have fetch data from URL in Server Component <br>
+
+Here we made simple project <br>
+We have created Dynamic Recipes List with Button -> Dynamic Routes -> Recipes/1 , Recipes/2 etc... <br>
+- app\Recipes\page.jsx
+<br>
+We have create /Recipes/[id]/page.jsx for dynamic route. <br>
+- app\Recipes\[id]\page.jsx <br>
+Here we fetch Id from app/Recipes/01 ,02 so on. <br>
+We use fetch('https://dummyjson.com/recipes/1')  <br>
+for dynamic data fetching from url. <br>
+
+<hr />
