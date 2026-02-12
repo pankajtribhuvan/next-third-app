@@ -82,6 +82,14 @@ Dynamic Route
         Recipes - searchParams -  Server Component Project
       </Link>
     </li>
+     <li>
+      <Link
+        href="/ClientComp/Recipes/"
+        className="bg-red-300 px-4 py-2 block"
+      >
+        Recipes - Client -  Server Component Project
+      </Link>
+    </li>
     
   </ul>
 </nav>

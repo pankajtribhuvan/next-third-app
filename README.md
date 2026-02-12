@@ -7,42 +7,42 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
 <hr />
 4. DYNAMIC ROUTES - Profiles
 <br>
-https://example.com/profiles/profile/aarush <br>
-https://example.com/profiles/profile/kabir/ <br>
+    https://example.com/profiles/profile/aarush <br>
+    https://example.com/profiles/profile/kabir/ <br>
 
 <hr />
 5. NESTED DYNAMIC ROUTES - LIKE FOLLOWING <br>
-https://example.com/profiles/profile/aarush/post/101 <br>
-https://example.com/profiles/profile/aarush/post/102 <br>
-https://example.com/profiles/profile/aarush/post/103 <br>
+    https://example.com/profiles/profile/aarush/post/101 <br>
+    https://example.com/profiles/profile/aarush/post/102 <br>
+    https://example.com/profiles/profile/aarush/post/103 <br>
 
 <hr />
 6. DYNAMIC ROUTING IN CLIENT COMPONENT - <br>
 
-REACT use API - <br>
-// so we can use dynamic routing inside client component <br>
-Example Page : <br>
-app\Profiles\Profile\[user]\posts\[postId]\page.jsx <br>
+    REACT use API - <br>
+    // so we can use dynamic routing inside client component <br>
+    Example Page : <br>
+    app\Profiles\Profile\[user]\posts\[postId]\page.jsx <br>
 
 <hr />
 7. How to use URL - string - searchParams <br><br>
-http://localhost:3000/products?category=laptop&price=340000 <br>
+    http://localhost:3000/products?category=laptop&price=340000 <br>
 
-Example  : <br>
-app\products\page.jsx  <br>
+    Example  : <br>
+    app\products\page.jsx  <br>
 
 <hr />
 8. How to use URL - string - useSearchParams - in Client Components <br><br>
-http://localhost:3000/products?category=laptop&price=340000 <br>
+    http://localhost:3000/products?category=laptop&price=340000 <br>
 
-Example  : <br>
-app\products2\page.jsx  <br>
+    Example  : <br>
+    app\products2\page.jsx  <br>
 
-------------------- <br>
-URL : http://localhost:3000/Blogs <br>
+    ------------------- <br>
+    URL : http://localhost:3000/Blogs <br>
 
 <hr />
-9.  Slug Segment - Here exact routes name are difficult to remember and maintaing.<br>
+9.  Slug Segment - Here exact routes name are difficult to  remember and maintaing.<br>
     
     http://localhost/blog/technologies/post-11Feb-01<br>
     http://localhost/blog/technologies/post-12Feb-01<br>
@@ -63,22 +63,23 @@ URL : http://localhost:3000/Blogs <br>
 
 
 <hr />
-10. Receipe - We have fetch data from URL in Server Component <br>
-//This is Dynamic Routing Example - for server component data fetching.<br>
-Here we made simple project <br>
-We have created Dynamic Recipes List with Button -> Dynamic Routes -> Recipes/1 , Recipes/2 etc... <br>
-- app\Recipes\page.jsx
-<br>
-We have create /Recipes/[id]/page.jsx for dynamic route. <br>
-- app\Recipes\[id]\page.jsx <br>
-Here we fetch Id from app/Recipes/01 ,02 so on. <br>
-We use fetch('https://dummyjson.com/recipes/1')  <br>
-for dynamic data fetching from url. <br>
+    10. Receipe - We have fetch data from URL in Server Component <br>
+    //This is Dynamic Routing Example - for server component data fetching.<br>
+    Here we made simple project <br>
+    We have created Dynamic Recipes List with Button -> Dynamic Routes -> Recipes/1 , Recipes/2 etc... <br>
+    - app\Recipes\page.jsx
+    <br>
+    We have create /Recipes/[id]/page.jsx for dynamic route. <br>
+    - app\Recipes\[id]\page.jsx <br>
+    Here we fetch Id from app/Recipes/01 ,02 so on. <br>
+    We use fetch('https://dummyjson.com/recipes/1')  <br>
+    for dynamic data fetching from url. <br>
 <hr />
 
-11. ServerComp - This is Search Example - for server component data fetching on the basis of url query string.(?id=2)
-<br>
-http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
+11. ServerComp - 
+    This is Search Example - for server component data fetching on the basis of url query string.(?id=2)
+    <br>
+    http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
 
 <hr />
 12. Difference between :
@@ -111,4 +112,10 @@ http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
     console.log(obj.id) // 1 
 
     Note : Both prejects are same with different techniques
+<hr>
+13. ClientComponent Example Ready using searchParam - data fetching.
+    Check following Example : Links are below : 
+    http://localhost:3000/ClinetComp/Recipes/
+    http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1
+
 <hr>
