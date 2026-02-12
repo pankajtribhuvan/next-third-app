@@ -63,7 +63,8 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
 
 
 <hr />
-    10. Receipe - We have fetch data from URL in Server Component <br>
+    10. Receipe - We have fetch data from URL in Server Component 
+
     //This is Dynamic Routing Example - for server component data fetching.<br>
     Here we made simple project <br>
     We have created Dynamic Recipes List with Button -> Dynamic Routes -> Recipes/1 , Recipes/2 etc... <br>
@@ -77,6 +78,7 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
 <hr />
 
 11. ServerComp - 
+
     This is Search Example - for server component data fetching on the basis of url query string.(?id=2)
     <br>
     http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
@@ -114,7 +116,7 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
     Note : Both prejects are same with different techniques 
 <hr />
 13. ClientComponent Example Ready using searchParam - data fetching.
-    <br>
+
     Check following Example : Links are below : <br>
     http://localhost:3000/ClinetComp/Recipes/ <br>
     http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1 <br>
@@ -130,9 +132,11 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
     ✅ Solution 2 – Keep Client Component (Manual Loading State)
         app\LoadingDemo\ClientLoading.jsx
 <hr />
-15. Random Joke Generator Project on Client Component <br>
+15. Random Joke Generator Project on Client Component 
+
     URL Link : <br>
         http://localhost:3000/ClientComp/Joke-Project <br>
     Repo Link : <br>
         app\ClientComp\Joke-Project\page.jsx
+
 <hr />
