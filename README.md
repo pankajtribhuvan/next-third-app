@@ -64,7 +64,7 @@ URL : http://localhost:3000/Blogs <br>
 
 <hr />
 10. Receipe - We have fetch data from URL in Server Component <br>
-
+//This is Dynamic Routing Example - for server component data fetching.<br>
 Here we made simple project <br>
 We have created Dynamic Recipes List with Button -> Dynamic Routes -> Recipes/1 , Recipes/2 etc... <br>
 - app\Recipes\page.jsx
@@ -74,5 +74,41 @@ We have create /Recipes/[id]/page.jsx for dynamic route. <br>
 Here we fetch Id from app/Recipes/01 ,02 so on. <br>
 We use fetch('https://dummyjson.com/recipes/1')  <br>
 for dynamic data fetching from url. <br>
+<hr />
+
+11. ServerComp - This is Search Example - for server component data fetching on the basis of url query string.(?id=2)
+<br>
+http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
 
 <hr />
+12. Difference between :
+    Project Link : app\Recipes
+
+    * Dynamic routing : 
+    http://localhost:3000/Recipes/1
+    http://localhost:3000/Recipes/2
+    http://localhost:3000/Recipes/3
+
+    In Receipe/[id]/page.jsx => Dynamic routing
+    
+    We use  
+    const { id } = await props.params;
+    it will give id = 1 ,2 ,3
+    <hr>
+    ==============================
+    ==============================
+
+    
+    * searchParams : ?id=1&name=Vadapav
+    Project Link : app\ServerComp\Recipes
+
+    http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=1
+    http://localhost:3000/ServerComp/Recipes/SingleRecipe?id=2
+
+    const obj = await props.searchParams;
+    // we are fetch the Id send to URL - it will return obj.
+    console.log(obj)  // {id:1,name:"Vadapav"}
+    console.log(obj.id) // 1 
+
+    Note : Both prejects are same with different techniques
+<hr>

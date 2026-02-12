@@ -1,4 +1,3 @@
-//This is Dynamic Routing Example - for server component data fetching.
 import Link from "next/link";
 
 let Recipes = async () => {
@@ -9,7 +8,7 @@ let Recipes = async () => {
   return (
     <>
       <h1 className="text-center text-3xl m-4">
-        Dynamic Routes - Server Component Project
+        searchParam - Server Component Project
       </h1>
 
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-red-100 p-8">
@@ -50,8 +49,8 @@ let Recipes = async () => {
                 <h2 className="text-lg font-bold text-gray-800 mb-3">
                   {r.name}
                 </h2>
-                <Link href={`/Recipes/${r.id}`}>  
-                {/* <Link href={`/Recipes/SingleRecipe?id=${r.id}`} > */}
+                {/* <Link href={`/Recipes/${r.id}`}>   */}
+                <Link href={`/ServerComp/Recipes/SingleRecipe?id=${r.id}`} >
                 <button className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2 rounded-lg transition duration-300">
                   🍕 Order Now
                 </button>

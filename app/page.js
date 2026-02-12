@@ -71,9 +71,18 @@ Dynamic Route
         href="/Recipes"
         className="bg-amber-300 px-4 py-2 block"
       >
-        Recipes - Server Component Project
+        Recipes - Dynamic Routes - Server Component Project
       </Link>
     </li>
+     <li>
+      <Link
+        href="/ServerComp/Recipes/"
+        className="bg-amber-300 px-4 py-2 block"
+      >
+        Recipes - searchParams -  Server Component Project
+      </Link>
+    </li>
+    
   </ul>
 </nav>
 

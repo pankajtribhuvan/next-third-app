@@ -1,11 +1,11 @@
 import React from "react";
 
 async function Page(props) {
-  const { id } = await props.params;
-  // we are fetch the Id send to URL = 1,2,3 like below
-  // http://localhost:3000/Recipes/1
+  const obj = await props.searchParams;
+  // we are fetch the Id send to URL - it will return obj.
+  console.log(obj.id)
 
-  const res = await fetch(`https://dummyjson.com/recipes/${+id}`, {
+  const res = await fetch(`https://dummyjson.com/recipes/${obj.id}`, {
     cache: "no-store",
   });
 
