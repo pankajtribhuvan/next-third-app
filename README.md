@@ -114,9 +114,9 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
     Note : Both prejects are same with different techniques
 <hr>
 13. ClientComponent Example Ready using searchParam - data fetching.
-<br>
-    Check following Example : Links are below : 
-    http://localhost:3000/ClinetComp/Recipes/
-    http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1
+    <br>
+    Check following Example : Links are below : <br>
+    http://localhost:3000/ClinetComp/Recipes/   <br>
+    http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1 <br>
 
 <hr>
