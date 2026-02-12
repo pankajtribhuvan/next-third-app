@@ -117,6 +117,15 @@ function Home() {
             </Link>
           </li>
 
+           <li>
+            <Link
+              href="/Static"
+              className="bg-red-300 px-4 py-2 block"
+            >
+              Db Demo
+            </Link>
+          </li>
+
         </ul>
       </nav>
 

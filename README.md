@@ -315,3 +315,11 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
 
 
 <hr />
+17. Mysql Database data read
+    
+    Db Connection file :
+    config/db.jsx
+    ---------------------
+    Data Fetching Demo File :
+    app\Static\page.jsx
+
