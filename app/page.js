@@ -90,6 +90,14 @@ Dynamic Route
         Recipes - Client -  Server Component Project
       </Link>
     </li>
+     <li>
+      <Link
+        href="/LoadingDemo/"
+        className="bg-red-300 px-4 py-2 block"
+      >
+        LoadingDemo
+      </Link>
+    </li>
     
   </ul>
 </nav>

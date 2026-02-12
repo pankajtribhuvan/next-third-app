@@ -111,11 +111,22 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
     console.log(obj)  // {id:1,name:"Vadapav"}
     console.log(obj.id) // 1 
 
-    Note : Both prejects are same with different techniques
-<hr>
+    Note : Both prejects are same with different techniques 
+<hr />
 13. ClientComponent Example Ready using searchParam - data fetching.
-    Check following Example : Links are below : 
-    http://localhost:3000/ClinetComp/Recipes/
-    http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1
+    <br>
+    Check following Example : Links are below : <br>
+    http://localhost:3000/ClinetComp/Recipes/ <br>
+    http://localhost:3000/ClinetComp/Recipes/SingleRecipe?id=1 <br>
 
-<hr>
+<hr />
+14. Loading Page - server Components - only
+
+    🔴 loading.js only works for Server Components or route-level suspense — NOT for client-side useEffect fetching. 
+
+    ✅ Solution 1 (Recommended) – Use Server Component Fetching
+        app\LoadingDemo\page.jsx
+        app\LoadingDemo\loading.jsx
+    ✅ Solution 2 – Keep Client Component (Manual Loading State)
+        app\LoadingDemo\ClientLoading.jsx
+<hr />
