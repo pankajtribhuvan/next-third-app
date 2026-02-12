@@ -108,6 +108,15 @@ function Home() {
             </Link>
           </li>
 
+           <li>
+            <Link
+              href="/SuspenseDemo"
+              className="bg-red-300 px-4 py-2 block"
+            >
+              Suspense Demo on Server Component
+            </Link>
+          </li>
+
         </ul>
       </nav>
 
