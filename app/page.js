@@ -6,105 +6,114 @@ function Home() {
     <div>
       <h1 className='text-6xl text-center'>Client Vs Server Component in NEXT.js</h1>
 
-     <hr />
-<nav>
-  <ul className="flex gap-4 list-none">
-    <li>
-      <Link
-        href="/ClientComp"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Client Component Example
-      </Link>
-    </li>
+      <hr />
+      <nav>
+        <ul className="grid grid-cols-4 gap-4 list-none">
+          <li>
+            <Link
+              href="/ClientComp"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Client Component Example
+            </Link>
+          </li>
 
-    <li>
-      <Link
-        href="/ServerComp"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Server Component Example
-      </Link>
-    </li>
-    <li>
-      <Link
-        href="/ClientComponentDemo"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Client Component Demo
-      </Link>
-    </li>
-    <li>
-      <Link
-        href="/Profiles"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-Dynamic Route 
-      </Link>
-    </li>
-    <li>
-      <Link
-        href="/products"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Search Param - Products 
-      </Link>
-    </li>
-    <li>
-      <Link
-        href="/products2"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Search Param in Client Component 
-      </Link>
-    </li>
-    <li>
-      <Link
-        href="/Blogs"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Slug Example in Server Component
-      </Link>
-    </li>
-     <li>
-      <Link
-        href="/Recipes"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Recipes - Dynamic Routes - Server Component Project
-      </Link>
-    </li>
-     <li>
-      <Link
-        href="/ServerComp/Recipes/"
-        className="bg-amber-300 px-4 py-2 block"
-      >
-        Recipes - searchParams -  Server Component Project
-      </Link>
-    </li>
-     <li>
-      <Link
-        href="/ClientComp/Recipes/"
-        className="bg-red-300 px-4 py-2 block"
-      >
-        Recipes - Client -  Server Component Project
-      </Link>
-    </li>
-     <li>
-      <Link
-        href="/LoadingDemo/"
-        className="bg-red-300 px-4 py-2 block"
-      >
-        LoadingDemo
-      </Link>
-    </li>
-    
-  </ul>
-</nav>
+          <li>
+            <Link
+              href="/ServerComp"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Server Component Example
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ClientComponentDemo"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Client Component Demo
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Profiles"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Dynamic Route
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/products"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Search Param - Products
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/products2"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Search Param in Client Component
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Blogs"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Slug Example in Server Component
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/Recipes"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Recipes - Dynamic Routes - Server Component Project
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ServerComp/Recipes/"
+              className="bg-amber-300 px-4 py-2 block"
+            >
+              Recipes - searchParams -  Server Component Project
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/ClientComp/Recipes/"
+              className="bg-red-300 px-4 py-2 block"
+            >
+              Recipes - Client -  Server Component Project
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/LoadingDemo/"
+              className="bg-red-300 px-4 py-2 block"
+            >
+              LoadingDemo
+            </Link>
+          </li>
 
-      
-       
-      
+          <li>
+            <Link
+              href="/ClientComp/Joke-Project/"
+              className="bg-red-300 px-4 py-2 block"
+            >
+              Random Joke Generator - Client Component
+            </Link>
+          </li>
+
+        </ul>
+      </nav>
+
+
+
+
     </div>
   );
 }

@@ -130,3 +130,9 @@ THIS PROJECT CONTENT THE EXAMPLES OF :
     ✅ Solution 2 – Keep Client Component (Manual Loading State)
         app\LoadingDemo\ClientLoading.jsx
 <hr />
+15. Random Joke Generator Project on Client Component <br>
+    URL Link : <br>
+        http://localhost:3000/ClientComp/Joke-Project <br>
+    Repo Link : <br>
+        app\ClientComp\Joke-Project\page.jsx
+<hr />
